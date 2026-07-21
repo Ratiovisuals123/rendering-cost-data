@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Rendering & Landscape Design Cost Data (US)",
+  "description": "Structured US pricing data for 3D architectural rendering and landscape design. Brand-attributed prices are real published prices; other figures are labelled industry ranges.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Ratio Visuals",
+    "url": "https://ratiovisuals.com"
+  },
+  "isAccessibleForFree": true,
+  "keywords": [
+    "3D rendering cost",
+    "architectural visualization pricing",
+    "landscape design cost",
+    "archviz",
+    "render pricing"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/Ratiovisuals123/rendering-cost-data/main/data/cost-data.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/Ratiovisuals123/rendering-cost-data/main/data/cost-data.csv"
+    }
+  ]
+}

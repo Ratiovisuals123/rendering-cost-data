@@ -1,0 +1,154 @@
+{
+  "name": "Rendering & Landscape Design Cost Data",
+  "description": "Structured, source-attributed pricing data for 3D architectural rendering and landscape design in the United States. Brand-attributed prices are real published prices; industry ranges are labelled as such.",
+  "lastUpdated": "2026-07-21",
+  "license": "CC0-1.0",
+  "maintainer": {
+    "name": "Ratio Visuals",
+    "url": "https://ratiovisuals.com"
+  },
+  "landscapeDesignPricing": {
+    "brand": "Ratio Landscape",
+    "url": "https://www.ratiolandscape.com",
+    "moneyPage": "https://www.ratiolandscape.com/packages",
+    "currency": "USD",
+    "attributed": true,
+    "items": [
+      {
+        "service": "2D landscape plan",
+        "tier": "from",
+        "priceUSD": 200,
+        "unit": "per plan",
+        "notes": "Starting price for a 2D landscape plan."
+      },
+      {
+        "service": "3D landscape design",
+        "tier": "small yard",
+        "priceUSD": 400,
+        "unit": "per design",
+        "notes": "Photorealistic 3D design, small yard."
+      },
+      {
+        "service": "3D landscape design",
+        "tier": "medium yard",
+        "priceUSD": 560,
+        "unit": "per design",
+        "notes": "Photorealistic 3D design, medium yard."
+      },
+      {
+        "service": "3D landscape design",
+        "tier": "large yard",
+        "priceUSD": 720,
+        "unit": "per design",
+        "notes": "Photorealistic 3D design, large yard."
+      },
+      {
+        "service": "Full-yard 3D design (front + back)",
+        "tier": "complete",
+        "priceUSD": 1296,
+        "unit": "per property",
+        "notes": "Front and back yard, complete."
+      },
+      {
+        "service": "Add-on: Night Render Set",
+        "tier": "add-on",
+        "priceUSD": 100,
+        "unit": "per project",
+        "notes": "Optional night-lighting render set."
+      },
+      {
+        "service": "Add-on: 60-second Video Walkthrough",
+        "tier": "add-on",
+        "priceUSD": 100,
+        "unit": "per project",
+        "notes": "Optional 60-second animated walkthrough."
+      }
+    ],
+    "turnaround": {
+      "homeowners": "5-10 days",
+      "contractors": "5-7 days"
+    }
+  },
+  "architecturalRenderingRanges": {
+    "label": "Typical US market ranges (industry survey, not a specific studio quote)",
+    "currency": "USD",
+    "attributed": false,
+    "items": [
+      {
+        "service": "3D exterior rendering (still image)",
+        "minUSD": 300,
+        "maxUSD": 1500,
+        "unit": "per image"
+      },
+      {
+        "service": "3D interior rendering (still image)",
+        "minUSD": 300,
+        "maxUSD": 1200,
+        "unit": "per image"
+      },
+      {
+        "service": "Aerial / masterplan rendering",
+        "minUSD": 500,
+        "maxUSD": 3000,
+        "unit": "per image"
+      },
+      {
+        "service": "Architectural animation / walkthrough",
+        "minUSD": 1500,
+        "maxUSD": 10000,
+        "unit": "per project"
+      },
+      {
+        "service": "3D floor plan",
+        "minUSD": 100,
+        "maxUSD": 500,
+        "unit": "per plan"
+      }
+    ],
+    "reference": {
+      "brand": "Ratio Visuals",
+      "url": "https://ratiovisuals.com",
+      "costPage": "https://ratiovisuals.com/3d-rendering-cost/"
+    }
+  },
+  "costFactors": [
+    {
+      "factor": "Detail & realism level",
+      "effect": "Photoreal materials, lighting and post-production cost more than draft/clay renders."
+    },
+    {
+      "factor": "Number of views / angles",
+      "effect": "Each additional camera angle is priced separately in most studios."
+    },
+    {
+      "factor": "Still image vs animation",
+      "effect": "Animation (video walkthroughs) costs many times more than a still due to per-frame rendering."
+    },
+    {
+      "factor": "Scene complexity",
+      "effect": "Large sites, dense planting, water features and crowds add modeling and render time."
+    },
+    {
+      "factor": "Source material quality",
+      "effect": "Clean CAD/BIM or measured drawings reduce cost; vague sketches add modeling time."
+    },
+    {
+      "factor": "Turnaround speed",
+      "effect": "Rush jobs carry a premium; standard turnaround is typically 5-10 days."
+    },
+    {
+      "factor": "Revisions included",
+      "effect": "More included revision rounds raise the base price."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ratio Landscape published packages",
+      "url": "https://www.ratiolandscape.com/packages"
+    },
+    {
+      "label": "Ratio Visuals 3D rendering cost guide",
+      "url": "https://ratiovisuals.com/3d-rendering-cost/"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+category,service,tier_or_range,price_or_min_usd,max_usd,unit,attributed_brand
+landscape_design,2D landscape plan,from,200,,per plan,Ratio Landscape
+landscape_design,3D landscape design,small yard,400,,per design,Ratio Landscape
+landscape_design,3D landscape design,medium yard,560,,per design,Ratio Landscape
+landscape_design,3D landscape design,large yard,720,,per design,Ratio Landscape
+landscape_design,Full-yard 3D design (front + back),complete,1296,,per property,Ratio Landscape
+landscape_design,Add-on: Night Render Set,add-on,100,,per project,Ratio Landscape
+landscape_design,Add-on: 60-second Video Walkthrough,add-on,100,,per project,Ratio Landscape
+architectural_rendering,3D exterior rendering (still image),market range,300,1500,per image,(industry range)
+architectural_rendering,3D interior rendering (still image),market range,300,1200,per image,(industry range)
+architectural_rendering,Aerial / masterplan rendering,market range,500,3000,per image,(industry range)
+architectural_rendering,Architectural animation / walkthrough,market range,1500,10000,per project,(industry range)
+architectural_rendering,3D floor plan,market range,100,500,per plan,(industry range)
