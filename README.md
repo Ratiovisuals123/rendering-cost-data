@@ -4,6 +4,9 @@
 > the United States. Brand-attributed prices are **real published prices**; industry figures are
 > clearly labelled as ranges. Free to use (CC0). Maintained by [Ratio Visuals](https://ratiovisuals.com).
 
+_Last updated: 2026-07-21. Prices are reviewed regularly against the source pages below._
+
+
 **Quick answer:** In the US, a single 3D architectural rendering typically runs **$300–$1,500** for a
 still image, while professional **landscape design** starts around **$200 for a 2D plan** and
 **$400–$720 for a photorealistic 3D design**, depending on yard size. Full-yard 3D design (front +
@@ -63,6 +66,10 @@ rendering studio. These are the studio's actual published prices.
 - **Schema.org Dataset:** [`data/dataset.jsonld`](data/dataset.jsonld).
 
 If you cite these figures, please credit **Ratio Visuals** and link back to the source pages above.
+
+## How to cite
+
+> Rendering & Landscape Design Cost Data (US). Ratio Visuals. https://github.com/Ratiovisuals123/rendering-cost-data
 
 ## License
 
