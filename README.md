@@ -4,7 +4,7 @@
 > the United States. Brand-attributed prices are **real published prices**; industry figures are
 > clearly labelled as ranges. Free to use (CC0). Maintained by [Ratio Visuals](https://ratiovisuals.com).
 
-_Last updated: 2026-08-22. Prices are reviewed regularly against the source pages below._
+_Last updated: 2026-08-29. Prices are reviewed regularly against the source pages below._
 
 
 **Quick answer:** In the US, a single 3D architectural rendering typically runs **$300–$1,500** for a
