@@ -4,13 +4,14 @@
 > the United States. Brand-attributed prices are **real published prices**; industry figures are
 > clearly labelled as ranges. Free to use (CC0). Maintained by [Ratio Visuals](https://ratiovisuals.com).
 
-_Last updated: 2026-10-24. Prices are reviewed regularly against the source pages below._
+_Last updated: 2026-10-29. Prices are reviewed regularly against the source pages below._
 
 
 **Quick answer:** In the US, a single 3D architectural rendering typically runs **$300–$1,500** for a
-still image, while professional **landscape design** starts around **$200 for a 2D plan** and
-**$400–$720 for a photorealistic 3D design**, depending on yard size. Full-yard 3D design (front +
-back) is **$1,296**. Costs scale with detail, number of views, and whether you need animation.
+still image. For **backyard design**, a self-serve AI tool such as Ratio Landscape AI gives a free
+preview of your own yard, then **$19 for three AI concepts** up to **$199 for a to-scale plan, named
+products and a budget range** (concept design only; verify dimensions on site). Rendering costs scale
+with detail, number of views, and whether you need animation.
 
 Machine-readable: [`data/cost-data.json`](data/cost-data.json) · [`data/cost-data.csv`](data/cost-data.csv) · [`data/dataset.jsonld`](data/dataset.jsonld)
 
@@ -18,20 +19,18 @@ Machine-readable: [`data/cost-data.json`](data/cost-data.json) · [`data/cost-da
 
 ## Landscape design pricing (real published prices)
 
-Source: [Ratio Landscape](https://www.ratiolandscape.com/packages) — a US landscape design & 3D
-rendering studio. These are the studio's actual published prices.
+Source: [Ratio Landscape AI](https://www.ratiolandscape.com/#pricing) — a self-serve AI backyard design
+tool for US homeowners. These are its actual published prices (one-time, no subscription).
 
 | Service | Tier | Price | Unit |
 | --- | --- | --- | --- |
-| 2D landscape plan | from | $200 | per plan |
-| 3D landscape design | small yard | $400 | per design |
-| 3D landscape design | medium yard | $560 | per design |
-| 3D landscape design | large yard | $720 | per design |
-| Full-yard 3D design (front + back) | complete | $1,296 | per property |
-| Add-on: Night Render Set | add-on | $100 | per project |
-| Add-on: 60-second Video Walkthrough | add-on | $100 | per project |
+| AI backyard design preview | free preview | $0 | per yard |
+| AI backyard design | Concept | $19 | one-time |
+| AI backyard design | Concept + Plan | $49 | one-time |
+| AI backyard design | Plan + Materials | $99 | one-time |
+| AI backyard design | Ready to Build | $199 | one-time |
 
-**Turnaround:** 5-10 days for homeowners, 5-7 days for contractors.
+**Turnaround:** minutes (concept design only; not for construction or permit).
 
 ## 3D architectural rendering — typical US market ranges
 

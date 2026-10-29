@@ -1,72 +1,57 @@
 {
   "name": "Rendering & Landscape Design Cost Data",
   "description": "Structured, source-attributed pricing data for 3D architectural rendering and landscape design in the United States. Brand-attributed prices are real published prices; industry ranges are labelled as such.",
-  "lastUpdated": "2026-10-24",
+  "lastUpdated": "2026-10-29",
   "license": "CC0-1.0",
   "maintainer": {
     "name": "Ratio Visuals",
     "url": "https://ratiovisuals.com"
   },
   "landscapeDesignPricing": {
-    "brand": "Ratio Landscape",
+    "brand": "Ratio Landscape AI",
     "url": "https://www.ratiolandscape.com",
-    "moneyPage": "https://www.ratiolandscape.com/packages",
+    "moneyPage": "https://www.ratiolandscape.com/#pricing",
     "currency": "USD",
     "attributed": true,
     "items": [
       {
-        "service": "2D landscape plan",
-        "tier": "from",
-        "priceUSD": 200,
-        "unit": "per plan",
-        "notes": "Starting price for a 2D landscape plan."
+        "service": "AI backyard design preview",
+        "tier": "free preview",
+        "priceUSD": 0,
+        "unit": "per yard",
+        "notes": "One watermarked AI concept of your own yard; no card."
       },
       {
-        "service": "3D landscape design",
-        "tier": "small yard",
-        "priceUSD": 400,
-        "unit": "per design",
-        "notes": "Photorealistic 3D design, small yard."
+        "service": "AI backyard design",
+        "tier": "Concept",
+        "priceUSD": 19,
+        "unit": "one-time",
+        "notes": "3 full-resolution AI concepts of your own yard + plant list checked for your USDA hardiness zone."
       },
       {
-        "service": "3D landscape design",
-        "tier": "medium yard",
-        "priceUSD": 560,
-        "unit": "per design",
-        "notes": "Photorealistic 3D design, medium yard."
+        "service": "AI backyard design",
+        "tier": "Concept + Plan",
+        "priceUSD": 49,
+        "unit": "one-time",
+        "notes": "Adds a to-scale 2D plan set (PDF) and DXF file; dimensions estimated, verify on site."
       },
       {
-        "service": "3D landscape design",
-        "tier": "large yard",
-        "priceUSD": 720,
-        "unit": "per design",
-        "notes": "Photorealistic 3D design, large yard."
+        "service": "AI backyard design",
+        "tier": "Plan + Materials",
+        "priceUSD": 99,
+        "unit": "one-time",
+        "notes": "Adds named US products with quantities and price ranges."
       },
       {
-        "service": "Full-yard 3D design (front + back)",
-        "tier": "complete",
-        "priceUSD": 1296,
-        "unit": "per property",
-        "notes": "Front and back yard, complete."
-      },
-      {
-        "service": "Add-on: Night Render Set",
-        "tier": "add-on",
-        "priceUSD": 100,
-        "unit": "per project",
-        "notes": "Optional night-lighting render set."
-      },
-      {
-        "service": "Add-on: 60-second Video Walkthrough",
-        "tier": "add-on",
-        "priceUSD": 100,
-        "unit": "per project",
-        "notes": "Optional 60-second animated walkthrough."
+        "service": "AI backyard design",
+        "tier": "Ready to Build",
+        "priceUSD": 199,
+        "unit": "one-time",
+        "notes": "Adds a budget range, contractor-hiring help and a $100 credit toward a human-designer design."
       }
     ],
     "turnaround": {
-      "homeowners": "5-10 days",
-      "contractors": "5-7 days"
+      "homeowners": "minutes (concept design only; not for construction or permit)"
     }
   },
   "architecturalRenderingRanges": {
@@ -143,8 +128,8 @@
   ],
   "sources": [
     {
-      "label": "Ratio Landscape published packages",
-      "url": "https://www.ratiolandscape.com/packages"
+      "label": "Ratio Landscape AI published prices",
+      "url": "https://www.ratiolandscape.com/#pricing"
     },
     {
       "label": "Ratio Visuals 3D rendering cost guide",
